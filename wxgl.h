@@ -74,7 +74,7 @@ private:
     void OnMouseWheel(wxMouseEvent& event);
 
     // Timer for the renderloop.  Refresh the canvas regularly.
-    void OnRenderLoopTimer(wxTimerEvent& event);
+     void OnRenderLoopTimer(wxTimerEvent& event);
 
     // Members
     MyFrame*      _parent;
